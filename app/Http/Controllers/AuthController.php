@@ -71,9 +71,7 @@ class AuthController extends Controller
                     'password' => Hash::make(session('password'))  
                 ]
             );
-
             session()->forget(['otp', 'phone', 'name', 'password']);
-    
             return redirect()->route('loginform')->with('success', 'Đăng kí thành công');
         } else {
             return redirect()->back()->with('error', 'Mã OTP bị lỗi.Vui long thử lại thư lại');
@@ -84,20 +82,26 @@ class AuthController extends Controller
     {
         $request->validate([
             'phone' => 'required|string',
-            'password' => 'required',
+            'password' => 'required|string',
         ]);
         $user = User::where('phone', $request->phone)->first();
-
         if (!$user || !Hash::check($request->password, $user->password)) {
-            return redirect()->back()->with('error', 'SĐT hoặc mật khẩu sai');
+            return response()->json(['message' => 'SĐT hoặc mật khẩu sai'], 401);
         }
         Auth::login($user, $request->has('remember'));
-
-        return redirect()->route('home')->with('success', 'Đăng nhập thành công');
+        return response()->json([
+            'success' => true,
+            'message' => 'Đăng nhập thành công',
+            'user' => [
+                'id' => $user->id,
+                'name' => $user->name,
+            ],
+        ]);
     }
+    
 
     public function home(){
-        return view('home');
+        return view('dashboard');
     }
     public function showForgotPasswordForm()
     {
