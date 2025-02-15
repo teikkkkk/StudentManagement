@@ -1,0 +1,121 @@
+ 
+  .courseList {
+    margin-top: 30px;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  
+  
+  .courseList h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .courseList ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .courseList li {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .courseList li h3 {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .courseList li p {
+    font-size: 16px;
+    color: #666;
+  }
+  .deleteButton {
+  
+    padding: 5px 10px;
+    background-color: #f85767;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  .deleteButton:hover {
+    background-color: #e25f80;
+    transform: translateY(-2px); 
+  }
+  
+  .editButton {
+    background-color: #ffc107;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 15px;
+  }
+  
+  .editButton:hover {
+    background-color: #ffb300;
+    transform: translateY(-2px); 
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    background-color: #1ca339;
+    padding: 15px 20px;
+    border-bottom: 4px solid #0f7f29;
+  }
+
+  .pageTitle {
+    flex: 1;
+    text-align: center;
+    font-size: 2rem;
+    color: #ffffff;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  .homeButton {
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    transition: background-color 0.3s;
+  }
+
+  .homeButton:hover {
+    background-color: #45a049;
+  }
+  .createContentButton {
+    background-color: #2d7975;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  .createContentButton:hover {
+    background-color: #66f5ee;
+    transform: translateY(-2px); 
+  }
+

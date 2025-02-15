@@ -1,0 +1,63 @@
+/* styles/QuizSubmission.module.css */
+.container {
+  padding: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #1ca339;
+  padding: 15px 20px;
+  border-bottom: 4px solid #0f7f29;
+  margin-bottom: 20px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.alert {
+  padding: 24px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  margin-bottom: 3px;
+}
+.pageTitle {
+  flex: 1;
+  text-align: center;
+  font-size: 2rem;
+  color: #ffffff;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.homeButton {
+  padding: 8px;
+  background-color: #ffffff;
+  color: #1ca339;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  transition: background-color 0.3s;
+}
+
+.homeButton:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.05);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+}

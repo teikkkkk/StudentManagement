@@ -1,0 +1,209 @@
+
+.nav {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #eaf6e2;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.nav a:hover {
+    color: #28a745;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.courseList {
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.course {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+.course:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.course h3 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+    color: #28a745;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+    transition: background-color 0.5s ease, transform 0.5s;
+    margin: 10px;
+}
+
+.button:hover {
+    background-color: #218838;
+    transform: translateY(-2px); 
+}
+
+.footer {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 40px;
+    border-top: 5px solid #28a745;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.header {
+    background-color: #1ca339;
+    color: #fff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    font-size: 30px;
+    border-bottom: 4px solid #0f7f29; 
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;  
+}
+
+.userInfo {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    gap: 15px;  
+}
+
+.userInfo p {
+    margin: 0;
+    font-weight: bold;  
+}
+
+.logoutButton ,.loginButton{
+    background-color: #fff;
+    color: #1ca339;
+    border: 2px solid #1ca339;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.logoutButton:hover,.loginButton:hover {
+    background-color: #1ca339;
+    color: #fff;
+}
+.logoutButton:focus {
+    outline: none; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+}
+.profile, .payment {
+    background-color:#fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .profile:hover,.payment:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+  .Title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .Text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+.dropdownMenu {
+    position: absolute;
+    top: 65px; 
+    right: 40;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1200;
+    overflow: hidden;
+    width: 200px;
+    animation: fadeIn 0.3s ease;
+}
+
+.dropdownMenu a {
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #333;
+    font-weight: 500;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.dropdownMenu a:hover {
+    background-color: #f8f9fa;
+    color: #28a745;
+}
+
+.dropdownMenu .divider {
+    height: 1px;
+    background-color: #ddd;
+    margin: 8px 0;
+}
+
+ 
+.dropdownMenu .icon {
+    margin-right: 8px;
+    color: #28a745;
+}
+.dropdownHidden {
+    display: none;
+}

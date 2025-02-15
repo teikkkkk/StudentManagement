@@ -1,0 +1,79 @@
+.profile-container {
+    @apply container mx-auto px-4 py-8;
+}
+
+.profile-card {
+    @apply max-w-3xl mx-auto bg-white rounded-lg shadow-lg overflow-hidden;
+}
+
+.profile-layout {
+    @apply md:flex;
+}
+
+.profile-image-container {
+    @apply md:flex-shrink-0 p-6 flex justify-center items-center bg-gray-50;
+}
+
+.profile-image-wrapper {
+    @apply relative w-32 h-32;
+}
+
+.profile-image {
+    @apply rounded-full object-cover;
+}
+
+.profile-info {
+    @apply p-8;
+}
+
+.profile-title {
+    @apply uppercase tracking-wide text-sm text-indigo-500 font-semibold;
+}
+
+.profile-details {
+    @apply mt-4 space-y-4;
+}
+
+.profile-field {
+    @apply mb-4;
+}
+
+.profile-label {
+    @apply text-gray-600;
+}
+
+.profile-value {
+    @apply font-medium;
+}
+
+.profile-roles {
+    @apply flex flex-wrap gap-2 mt-1;
+}
+
+.profile-role-badge {
+    @apply px-3 py-1 text-sm font-medium text-white bg-blue-500 rounded-full;
+}
+
+.loading-spinner {
+    @apply flex justify-center items-center min-h-screen;
+}
+
+.spinner {
+    @apply animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500;
+}
+
+.error-container {
+    @apply flex justify-center items-center min-h-screen;
+}
+
+.error-content {
+    @apply text-center;
+}
+
+.error-title {
+    @apply text-2xl font-bold text-red-500;
+}
+
+.error-message {
+    @apply mt-2 text-gray-600;
+} 

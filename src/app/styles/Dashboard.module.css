@@ -1,0 +1,155 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #B85C5C;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 20px 20px 0;
+}
+
+.logo {
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.nav {
+  flex: 1;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.navItem svg {
+  margin-right: 10px;
+}
+
+.navItem:hover, .active {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.bottomNav {
+  margin-top: auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 20px;
+}
+
+.mainContent {
+  flex: 1;
+  padding: 30px;
+  background-color: #f5f5f5;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.sort {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.notification {
+  position: relative;
+  cursor: pointer;
+}
+
+.badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: #B85C5C;
+  color: white;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coursesSection {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.emptyState {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.emptyState img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.searchButton {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 20px auto;
+}
+
+.statsCard {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 200px;
+  gap: 20px;
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.statItem label {
+  color: #666;
+  font-size: 14px;
+}
+
+.statItem span {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.pieChart {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: conic-gradient(#B85C5C 0% 50%, #eee 50% 100%);
+} 

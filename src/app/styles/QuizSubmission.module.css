@@ -1,0 +1,48 @@
+.submissionList {
+  margin-top: 30px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.title{
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+  margin-top: 20px;
+}
+.submissionList ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.submissionList li {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.submissionList li h3 {
+  font-size: 20px;
+  margin: 0;
+  color: #333;
+}
+
+.submissionList li p {
+  font-size: 16px;
+  color: #666;
+}
+.detailButton{
+  background-color: rgb(115, 226, 148);
+  color: white;
+  padding: 7px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.detailButton:hover{
+  background-color: aquamarine;
+}

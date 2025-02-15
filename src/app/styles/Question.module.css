@@ -1,0 +1,209 @@
+
+.container {
+  padding: 20px;
+  max-width: auto;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.quizInfo {
+  margin-bottom: 30px;
+}
+
+
+.quizTitle {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+.quizTime {
+  font-size: 1.5rem;
+  color: #555;
+}
+
+.questionContainer {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.questionHeader {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.questionItem {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f4f4f4;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.questionItemTitle {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.questionTitle{
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+.inputTitle{
+  font-size: 1.3rem;
+  color: #333;
+margin-bottom: 10px;
+margin-left: 10px;
+}
+.questionItemAnswers {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.answerItem {
+  font-size: 1rem;
+  color: #666;
+  padding: 5px 0;
+  margin: 5px;
+}
+.answerItemContainer {
+  margin: 10px 0;
+}
+.deleteButton {
+  
+  padding: 8px 12px;
+  background-color: #f85767;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.deleteButton:hover {
+  background-color: #e25f80;
+}
+
+.editButton {
+  background-color: #f44336;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.editButton {
+  background-color: #ffc107;
+}
+
+.editButton:hover {
+  background-color: #ffb300;
+}
+
+.deleteButton:hover {
+  background-color: #d32f2f;
+}
+
+.saveButton {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.saveButton:hover {
+  background-color: #388e3c;
+}
+
+.cancelButton {
+  background-color: #9e9e9e;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancelButton:hover {
+  background-color: #616161;
+}
+.addButton{
+  background-color: #009688;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px;
+}
+.addButton:hover{
+  background-color: #00796b;
+}
+.submitButton{
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px;
+}
+.submitButton:hover{
+  background-color: #388e3c;
+}
+.newQuestionForm{
+  margin-top: 20px;
+  padding: auto;
+  margin-bottom: 30px;
+  background-color: #e4e8e5;
+  border-radius: 10px;
+}
+.inputQuestion{
+  width: 97%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 10px;
+  flex-grow: 1; 
+}
+.inputAnswer{
+  width: 90%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 8px;
+}
+.isCorrect {
+  width: 30px;
+  height: 30px;
+  background-color: #f0f0f0;
+  border: 2px solid #333;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.question{
+  display: flex;
+  align-items: center;
+  gap: 10px;  
+}
+.answer{
+  margin-bottom: 10px;
+}

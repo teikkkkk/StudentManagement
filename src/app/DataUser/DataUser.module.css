@@ -1,0 +1,158 @@
+.header {
+    background-color: #1ca339;
+    color: #fff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    font-size: 30px;
+    border-bottom: 4px solid #0f7f29; 
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;  
+}
+
+.pageTitle {
+    flex: 1;
+    text-align: center;
+    font-size: 2rem;
+    color: #ffffff;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+.profileContainer {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profileCard {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.profileLayout {
+    display: flex;
+    align-items: center;
+}
+
+.profileImageContainer {
+    margin-right: 20px;
+}
+
+.profileImage {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profileInfo {
+    flex: 1;
+}
+
+.profileTitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profileDetails {
+    margin-top: 10px;
+}
+
+.profileField {
+    margin-bottom: 10px;
+}
+
+.profileLabel {
+    font-weight: bold;
+}
+
+.profileValue {
+    margin-left: 10px;
+}
+
+.profileRoles {
+    margin-top: 5px;
+}
+
+.profileRoleBadge {
+    display: inline-block;
+    background-color: #e0e0e0;
+    border-radius: 12px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+.homeButton {
+    padding: 8px;
+    background-color: #ffffff;
+    color: #1ca339;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    transition: background-color 0.3s;
+  }
+  
+  .homeButton:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+  }
+
+.editInput {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.buttonContainer {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.editButton, .saveButton, .cancelButton {
+    padding: 8px 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+.editButton {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.saveButton {
+    background-color: #2196F3;
+    color: white;
+}
+
+.cancelButton {
+    background-color: #f44336;
+    color: white;
+}
+
+.editButton:hover, .saveButton:hover, .cancelButton:hover {
+    opacity: 0.9;
+}

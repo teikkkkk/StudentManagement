@@ -1,0 +1,202 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #7579ff, #b224ef);
+    padding: 20px;
+  }
+  .userCard{
+    background: rgba(255, 255, 255, 1);
+    width: 500px;
+    height: 650px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+.heading{
+    text-align: center;
+    margin: 20px;
+    font-family: 'Outfit', sans-serif;
+    
+}
+.heading h1{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 44px;
+    color: rgba(0, 0, 0, 1);
+}
+.heading p{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    color: rgba(0, 0, 0, 1);
+}
+.errorMessage{
+    color: #ff0000;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.form{
+    margin: 20px;
+}
+.inputGroup{
+    margin-bottom: 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.input {
+    width: 100%;
+    padding: 12px 15px;
+    padding-right: 40px;
+    border: 1px solid #959595;
+    border-radius: 8px;
+    font-size: 14px;
+    background: #ffffff;
+    margin: 0 auto 15px auto;
+}
+  
+.input:focus {
+    outline: none;
+    border-color: #7579ff;
+  }
+  
+  .input::placeholder {
+    color: #999;
+  }
+  .button {
+    width: 70%;
+    padding: 18px;
+    background: rgba(64, 140, 254, 1);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 30px auto 20px auto;
+    display: block;
+  }
+
+  .links {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #1E232C;
+    font-family: 'Outfit', sans-serif;
+  }
+  
+  .links a {
+    color: rgba(0,0,0,1);
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 5px;
+    transition: all 0.3s ease;
+  }
+
+  .links a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+  }
+
+  .passwordToggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-81%);
+    cursor: pointer;
+    color: #959595;
+    background: none;
+    border: none;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .passwordToggle:hover {
+    color: #7579ff;
+  }
+
+  .container {
+    padding: 20px;
+    background-color: #f0f8ff; /* Màu nền nhẹ nhàng */
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .quizTitle {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .timer {
+    font-size: 18px;
+    color: #ff4500; /* Màu đỏ cho thời gian */
+  }
+
+  .questionContainer {
+    margin-top: 20px;
+  }
+
+  .questionItem {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc; /* Đường viền cho câu hỏi */
+    border-radius: 8px;
+    background-color: #fff; /* Nền trắng cho câu hỏi */
+  }
+
+  .answerList {
+    list-style-type: none; /* Bỏ dấu chấm */
+    padding: 0;
+  }
+
+  .answer {
+    margin: 10px 0;
+  }
+
+  .submitButton {
+    background-color: #4caf50; /* Màu xanh cho nút nộp bài */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Nền mờ cho popup */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popupContent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .closeButton {
+    background-color: #f44336; /* Màu đỏ cho nút đóng */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

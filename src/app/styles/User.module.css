@@ -1,0 +1,103 @@
+/* User.module.css */
+.container {
+    max-width: auto;
+    background-color: #f9f9f9;  
+    border-radius: 8px;  
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  
+}
+
+
+.userTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+.userTable th,
+.userTable td {
+    border: 1px solid #ddd;
+    padding: 12px;  
+    text-align: left;
+}
+
+.userTable th {
+    background-color: #92b493;  
+    color: white;  
+    font-weight: bold;
+    font-size: 1.1em;  
+}
+
+.userTable tr:nth-child(even) {
+    background-color: #f2f2f2;  
+}
+
+.userTable tr:hover {
+    background-color: #e0e0e0;  
+    transition: background-color 0.3s;  
+}
+
+.userTable td {
+    color: #555;
+}
+
+.button {
+    background-color: #4CAF50;  
+    color: white;
+    padding: 8px 12px;  
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer;
+    transition: background-color 0.3s;  
+}
+
+.button:hover {
+    background-color: #45a049;  
+}
+
+.selectRole {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;  
+    background-color: white;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+.selectRole:hover {
+    border-color: #4CAF50; 
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #1ca339;
+  padding: 15px 20px;
+  border-bottom: 4px solid #0f7f29;
+}
+
+.pageTitle {
+  flex: 1;
+  text-align: center;
+  font-size: 2rem;
+  color: #ffffff;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.homeButton {
+  padding: 8px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  transition: background-color 0.3s;
+}
+
+.homeButton:hover {
+  background-color: #45a049;
+}
+      
